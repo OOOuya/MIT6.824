@@ -61,8 +61,8 @@ rm -f mr-*
 
 failed_any=0
 
-#########################################################
-# first word-count
+########################################################
+#  first word-count
 
 # generate the correct output
 ../mrsequential ../../mrapps/wc.so ../pg*txt || exit 1
@@ -267,7 +267,7 @@ else
 fi
 rm -f mr-*
 
-#########################################################
+########################################################
 echo '***' Starting crash test.
 
 # generate the correct output
